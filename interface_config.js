@@ -3,7 +3,7 @@
 var interfaceConfig = {
     // TO FIX: this needs to be handled from SASS variables. There are some
     // methods allowing to use variables both in css and js.
-    DEFAULT_BACKGROUND: '#474747',
+    DEFAULT_BACKGROUND: '#002443',
 
     /**
      * Whether or not the blurred video background for large video should be
@@ -14,10 +14,10 @@ var interfaceConfig = {
     INITIAL_TOOLBAR_TIMEOUT: 20000,
     TOOLBAR_TIMEOUT: 4000,
     TOOLBAR_ALWAYS_VISIBLE: false,
-    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
+    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Safer',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
     SHOW_JITSI_WATERMARK: true,
-    JITSI_WATERMARK_LINK: 'https://jitsi.org',
+    JITSI_WATERMARK_LINK: 'https://beta.safe.chat',
 
     // if watermark is disabled by default, it can be shown only for guests
     SHOW_WATERMARK_FOR_GUESTS: true,
@@ -28,9 +28,9 @@ var interfaceConfig = {
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
     DISPLAY_WELCOME_PAGE_CONTENT: true,
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
-    APP_NAME: 'Jitsi Meet',
-    NATIVE_APP_NAME: 'Jitsi Meet',
-    PROVIDER_NAME: 'Jitsi',
+    APP_NAME: 'SafeChat',
+    NATIVE_APP_NAME: 'SafeChat',
+    PROVIDER_NAME: 'SafeCoin',
     LANG_DETECTION: true, // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
 

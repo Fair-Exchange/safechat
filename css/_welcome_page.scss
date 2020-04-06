@@ -69,7 +69,7 @@ body.welcome-page {
                 width: 100%;
                 padding: $welcomePageEnterRoomInputContainerPadding;
                 text-align: left;
-                color: #253858;
+                color: #001222;
                 height: fit-content;
                 border-width: $welcomePageEnterRoomInputContainerBorderWidth;
                 border-style: $welcomePageEnterRoomInputContainerBorderStyle;
@@ -90,7 +90,7 @@ body.welcome-page {
                 }
 
                 ::placeholder {
-                    color: #253858;
+                    color: #001222;
                 }
             }
 
@@ -102,9 +102,11 @@ body.welcome-page {
             text-align: left;
             min-height: 354px;
             width: 710px;
-            background: #75A7E7;
+            background: #f0f2fc;
             display: $welcomePageTabContainerDisplay;
             flex-direction: column;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
 
             .tab-content{
                 display: $welcomePageTabContentDisplay;
@@ -154,7 +156,7 @@ body.welcome-page {
         height: $welcomePageButtonHeight;
         font-size: $welcomePageButtonFontSize;
         font-weight: $welcomePageButtonFontWeight;
-        background: #0074E0;
+        background: #087de4;
         border-radius: $welcomePageButtonBorderRadius;
         color: #FFFFFF;
         text-align: center;
