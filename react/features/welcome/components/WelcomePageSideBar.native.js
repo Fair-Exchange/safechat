@@ -25,12 +25,12 @@ import styles, { SIDEBAR_AVATAR_SIZE } from './styles';
 /**
  * The URL at which the privacy policy is available to the user.
  */
-const PRIVACY_URL = 'https://safe.chat/privacy.html';
+const PRIVACY_URL = 'https://safe.chat/privacy';
 
 /**
  * The URL at which the terms (of service/use) are available to the user.
  */
-const TERMS_URL = 'https://safe.chat/terms.html';
+const TERMS_URL = 'https://safe.chat/terms';
 
 type Props = {
 
