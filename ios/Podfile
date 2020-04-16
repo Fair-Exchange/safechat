@@ -1,8 +1,8 @@
 platform :ios, '11.0'
-workspace 'jitsi-meet'
+workspace 'safechat'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'jitsi-meet' do
+target 'safechat' do
   project 'app/app.xcodeproj'
 
   pod 'Crashlytics', '~> 3.14.0'
