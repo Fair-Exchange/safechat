@@ -105,7 +105,7 @@
 		0BEA5C3A1F7B8F73000D0AB4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		0BEA5C3C1F7B8F73000D0AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BEA5C3E1F7B8F73000D0AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* jitsi-meet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jitsi-meet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* SafeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -235,7 +235,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* jitsi-meet.app */,
+				13B07F961A680F5B00A75B9A /* SafeChat.app */,
 				0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */,
 				0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */,
 			);
@@ -280,9 +280,9 @@
 			productReference = 0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		13B07F861A680F5B00A75B9A /* jitsi-meet */ = {
+		13B07F861A680F5B00A75B9A /* SafeChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jitsi-meet" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SafeChat" */;
 			buildPhases = (
 				B6607F42A5CF0C76E98929E2 /* [CP] Check Pods Manifest.lock */,
 				0BBA83C41EC9F7600075A103 /* Run React packager */,
@@ -303,9 +303,9 @@
 			dependencies = (
 				0BEA5C401F7B8F73000D0AB4 /* PBXTargetDependency */,
 			);
-			name = "jitsi-meet";
+			name = SafeChat;
 			productName = "Jitsi Meet";
-			productReference = 13B07F961A680F5B00A75B9A /* jitsi-meet.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* SafeChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -354,7 +354,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* jitsi-meet */,
+				13B07F861A680F5B00A75B9A /* SafeChat */,
 				0BEA5C241F7B8F73000D0AB4 /* JitsiMeetCompanion */,
 				0BEA5C301F7B8F73000D0AB4 /* JitsiMeetCompanion Extension */,
 			);
@@ -755,7 +755,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit;
-				PRODUCT_NAME = "jitsi-meet";
+				PRODUCT_NAME = SafeChat;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
@@ -771,7 +771,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7KX425J2J8;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"../../node_modules/react-native-webrtc/ios",
@@ -789,7 +789,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit;
-				PRODUCT_NAME = "jitsi-meet";
+				PRODUCT_NAME = SafeChat;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
@@ -929,7 +929,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jitsi-meet" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SafeChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
