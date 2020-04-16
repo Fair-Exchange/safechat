@@ -34,7 +34,7 @@ var config = {
     // websocket: 'wss://jitsi-meet.example.com/xmpp-websocket',
 
     // The name of client node advertised in XEP-0115 'c' stanza
-    clientNode: 'http://jitsi.org/jitsimeet',
+    clientNode: 'http://beta.safe.trade',
 
     // The real JID of focus participant - can be overridden here
     // focusUserJid: 'focus@auth.jitsi-meet.example.com',
