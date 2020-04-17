@@ -4,9 +4,9 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:alpha.jitsi.net</string>
-		<string>applinks:beta.meet.jit.si</string>
-		<string>applinks:meet.jit.si</string>
+		<string>applinks:beta.safe.chat</string>
+		<string>applinks:alpha.safe.chat</string>
+		<string>applinks:meet.safe.chat</string>
 	</array>
 	<key>com.apple.developer.siri</key>
 	<true/>
