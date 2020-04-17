@@ -1,8 +1,8 @@
 platform :ios, '11.0'
-workspace 'safechat'
+workspace 'SafeChat'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'safechat' do
+target 'SafeChat' do
   project 'app/app.xcodeproj'
 
   pod 'Crashlytics', '~> 3.14.0'

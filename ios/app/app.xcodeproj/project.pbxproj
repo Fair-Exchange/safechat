@@ -26,7 +26,7 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		695AF3ED6F686F9C5EE40F9A /* libPods-jitsi-meet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E8EFE2C720D10F5961AEF /* libPods-jitsi-meet.a */; };
+		708239B09EAB62AE4BA74DF4 /* libPods-SafeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEA4583600A2C3F54B558DB /* libPods-SafeChat.a */; };
 		DE4C456121DE1E4E00EA0709 /* FIRUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4C455F21DE1E4E00EA0709 /* FIRUtilities.m */; };
 		E588011722789D43008B0561 /* JitsiMeetContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58801132278944E008B0561 /* JitsiMeetContext.swift */; };
 		E5C97B63227A1EB400199214 /* JitsiMeetCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C97B62227A1EB400199214 /* JitsiMeetCommands.swift */; };
@@ -113,13 +113,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4670A512A688E2DC34528282 /* Pods-jitsi-meet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jitsi-meet.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-jitsi-meet/Pods-jitsi-meet.debug.xcconfig"; sourceTree = "<group>"; };
-		489E8EFE2C720D10F5961AEF /* libPods-jitsi-meet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jitsi-meet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DD8D52244832CF001F8D28 /* jitsi-meetRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "jitsi-meetRelease.entitlements"; sourceTree = "<group>"; };
+		9CEA4583600A2C3F54B558DB /* libPods-SafeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SafeChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B083EB1D4955FF0069CEE7 /* app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app.entitlements; sourceTree = "<group>"; };
+		C4A807F999EC69CC8E172D26 /* Pods-SafeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeChat.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SafeChat/Pods-SafeChat.release.xcconfig"; sourceTree = "<group>"; };
 		DE4C455F21DE1E4E00EA0709 /* FIRUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRUtilities.m; sourceTree = "<group>"; };
 		DE4C456021DE1E4E00EA0709 /* FIRUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRUtilities.h; sourceTree = "<group>"; };
 		E58801132278944E008B0561 /* JitsiMeetContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JitsiMeetContext.swift; sourceTree = "<group>"; };
 		E5C97B62227A1EB400199214 /* JitsiMeetCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JitsiMeetCommands.swift; sourceTree = "<group>"; };
+		E848E23744DBACF4816BE436 /* Pods-SafeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeChat.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SafeChat/Pods-SafeChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +138,7 @@
 			files = (
 				0B26BE6E1EC5BC3C00EEFB41 /* JitsiMeet.framework in Frameworks */,
 				0BD6B4371EF82A6B00D1F4CD /* WebRTC.framework in Frameworks */,
-				695AF3ED6F686F9C5EE40F9A /* libPods-jitsi-meet.a in Frameworks */,
+				708239B09EAB62AE4BA74DF4 /* libPods-SafeChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +157,7 @@
 			children = (
 				0B26BE6D1EC5BC3C00EEFB41 /* JitsiMeet.framework */,
 				0BD6B4361EF82A6B00D1F4CD /* WebRTC.framework */,
-				489E8EFE2C720D10F5961AEF /* libPods-jitsi-meet.a */,
+				9CEA4583600A2C3F54B558DB /* libPods-SafeChat.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,6 +214,8 @@
 			children = (
 				4670A512A688E2DC34528282 /* Pods-jitsi-meet.debug.xcconfig */,
 				09AA3B93E4CC62D84B424690 /* Pods-jitsi-meet.release.xcconfig */,
+				E848E23744DBACF4816BE436 /* Pods-SafeChat.debug.xcconfig */,
+				C4A807F999EC69CC8E172D26 /* Pods-SafeChat.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -449,7 +453,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-jitsi-meet-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SafeChat-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -727,7 +731,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4670A512A688E2DC34528282 /* Pods-jitsi-meet.debug.xcconfig */;
+			baseConfigurationReference = E848E23744DBACF4816BE436 /* Pods-SafeChat.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDebug;
@@ -762,7 +766,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09AA3B93E4CC62D84B424690 /* Pods-jitsi-meet.release.xcconfig */;
+			baseConfigurationReference = C4A807F999EC69CC8E172D26 /* Pods-SafeChat.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconRelease;
