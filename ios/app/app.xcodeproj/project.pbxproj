@@ -766,6 +766,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat;
 				PRODUCT_NAME = "jitsi-meet";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -801,6 +802,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat;
 				PRODUCT_NAME = "jitsi-meet";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
