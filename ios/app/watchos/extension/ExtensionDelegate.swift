@@ -16,7 +16,10 @@
  */
 
 import WatchConnectivity
+
+#if !os(iOS)
 import WatchKit
+#endif
 
 class ExtensionDelegate: NSObject, WCSessionDelegate, WKExtensionDelegate {
 

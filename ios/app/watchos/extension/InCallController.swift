@@ -16,7 +16,9 @@
  */
 
 import WatchConnectivity
+#if !os(iOS)
 import WatchKit
+#endif
 import Foundation
 
 
