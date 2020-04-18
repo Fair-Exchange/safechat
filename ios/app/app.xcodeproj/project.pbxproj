@@ -95,7 +95,7 @@
 		0B70016F1F7C51CC005944F4 /* InCallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCallController.swift; sourceTree = "<group>"; };
 		0BBD021F212EB69D00CCB19F /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
 		0BD6B4361EF82A6B00D1F4CD /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = "../../node_modules/react-native-webrtc/ios/WebRTC.framework"; sourceTree = "<group>"; };
-		0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JitsiMeetCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEA5C251F7B8F73000D0AB4 /* SafeChat Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafeChat Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEA5C281F7B8F73000D0AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		0BEA5C2A1F7B8F73000D0AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BEA5C2C1F7B8F73000D0AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -240,7 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* SafeChat.app */,
-				0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */,
+				0BEA5C251F7B8F73000D0AB4 /* SafeChat Companion.app */,
 				0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */,
 			);
 			name = Products;
@@ -264,7 +264,7 @@
 			);
 			name = JitsiMeetCompanion;
 			productName = JitsiMeetCompanion;
-			productReference = 0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */;
+			productReference = 0BEA5C251F7B8F73000D0AB4 /* SafeChat Companion.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		0BEA5C301F7B8F73000D0AB4 /* JitsiMeetCompanion Extension */ = {
@@ -284,9 +284,9 @@
 			productReference = 0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		13B07F861A680F5B00A75B9A /* SafeChat */ = {
+		13B07F861A680F5B00A75B9A /* JitsiMeet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SafeChat" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "JitsiMeet" */;
 			buildPhases = (
 				B6607F42A5CF0C76E98929E2 /* [CP] Check Pods Manifest.lock */,
 				0BBA83C41EC9F7600075A103 /* Run React packager */,
@@ -307,7 +307,7 @@
 			dependencies = (
 				0BEA5C401F7B8F73000D0AB4 /* PBXTargetDependency */,
 			);
-			name = SafeChat;
+			name = JitsiMeet;
 			productName = "Jitsi Meet";
 			productReference = 13B07F961A680F5B00A75B9A /* SafeChat.app */;
 			productType = "com.apple.product-type.application";
@@ -358,7 +358,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* SafeChat */,
+				13B07F861A680F5B00A75B9A /* JitsiMeet */,
 				0BEA5C241F7B8F73000D0AB4 /* JitsiMeetCompanion */,
 				0BEA5C301F7B8F73000D0AB4 /* JitsiMeetCompanion Extension */,
 			);
@@ -598,7 +598,7 @@
 		0BEA5C421F7B8F73000D0AB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -618,7 +618,7 @@
 				IBSC_MODULE = JitsiMeetCompanion_Extension;
 				INFOPLIST_FILE = watchos/app/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SafeChat Companion";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -632,7 +632,7 @@
 		0BEA5C431F7B8F73000D0AB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -653,7 +653,7 @@
 				IBSC_MODULE = JitsiMeetCompanion_Extension;
 				INFOPLIST_FILE = watchos/app/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SafeChat Companion";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -733,7 +733,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E848E23744DBACF4816BE436 /* Pods-SafeChat.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconRelease;
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -753,12 +753,13 @@
 				INFOPLIST_FILE = src/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 20.2.7;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.ios;
 				PRODUCT_NAME = SafeChat;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -769,7 +770,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4A807F999EC69CC8E172D26 /* Pods-SafeChat.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconRelease;
 				CODE_SIGN_ENTITLEMENTS = "jitsi-meetRelease.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -788,12 +789,13 @@
 				INFOPLIST_FILE = src/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 20.2.7;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.ios;
 				PRODUCT_NAME = SafeChat;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -935,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SafeChat" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "JitsiMeet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
