@@ -245,9 +245,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BEA5C241F7B8F73000D0AB4 /* CafeChatCompanion */ = {
+		0BEA5C241F7B8F73000D0AB4 /* SafeChatCompanion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BEA5C481F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "CafeChatCompanion" */;
+			buildConfigurationList = 0BEA5C481F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "SafeChatCompanion" */;
 			buildPhases = (
 				0BEA5C231F7B8F73000D0AB4 /* Resources */,
 				0BEA5C471F7B8F73000D0AB4 /* Embed App Extensions */,
@@ -258,7 +258,7 @@
 			dependencies = (
 				0BEA5C341F7B8F73000D0AB4 /* PBXTargetDependency */,
 			);
-			name = CafeChatCompanion;
+			name = SafeChatCompanion;
 			productName = JitsiMeetCompanion;
 			productReference = 0BEA5C251F7B8F73000D0AB4 /* Safe Chat.app */;
 			productType = "com.apple.product-type.application.watchapp2";
@@ -355,7 +355,7 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* SafeChat */,
-				0BEA5C241F7B8F73000D0AB4 /* CafeChatCompanion */,
+				0BEA5C241F7B8F73000D0AB4 /* SafeChatCompanion */,
 				0BEA5C301F7B8F73000D0AB4 /* SafeChatCompanion Extension */,
 			);
 		};
@@ -566,7 +566,7 @@
 		};
 		0BEA5C401F7B8F73000D0AB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0BEA5C241F7B8F73000D0AB4 /* CafeChatCompanion */;
+			target = 0BEA5C241F7B8F73000D0AB4 /* SafeChatCompanion */;
 			targetProxy = 0BEA5C3F1F7B8F73000D0AB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -932,7 +932,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BEA5C481F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "CafeChatCompanion" */ = {
+		0BEA5C481F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "SafeChatCompanion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BEA5C421F7B8F73000D0AB4 /* Debug */,
