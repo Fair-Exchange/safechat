@@ -17,12 +17,12 @@
 		0BD6B4381EF82A6B00D1F4CD /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD6B4361EF82A6B00D1F4CD /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0BEA5C291F7B8F73000D0AB4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA5C271F7B8F73000D0AB4 /* Interface.storyboard */; };
 		0BEA5C2B1F7B8F73000D0AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA5C2A1F7B8F73000D0AB4 /* Assets.xcassets */; };
-		0BEA5C321F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0BEA5C321F7B8F73000D0AB4 /* Safe Chat Companion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0BEA5C311F7B8F73000D0AB4 /* Safe Chat Companion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0BEA5C371F7B8F73000D0AB4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA5C361F7B8F73000D0AB4 /* InterfaceController.swift */; };
 		0BEA5C391F7B8F73000D0AB4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA5C381F7B8F73000D0AB4 /* ExtensionDelegate.swift */; };
 		0BEA5C3B1F7B8F73000D0AB4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA5C3A1F7B8F73000D0AB4 /* ComplicationController.swift */; };
 		0BEA5C3D1F7B8F73000D0AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA5C3C1F7B8F73000D0AB4 /* Assets.xcassets */; };
-		0BEA5C411F7B8F73000D0AB4 /* JitsiMeetCompanion.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */; };
+		0BEA5C411F7B8F73000D0AB4 /* Safe Chat.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0BEA5C251F7B8F73000D0AB4 /* Safe Chat.app */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -69,7 +69,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0BEA5C321F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex in Embed App Extensions */,
+				0BEA5C321F7B8F73000D0AB4 /* Safe Chat Companion Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,7 +80,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				0BEA5C411F7B8F73000D0AB4 /* JitsiMeetCompanion.app in Embed Watch Content */,
+				0BEA5C411F7B8F73000D0AB4 /* Safe Chat.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,11 +97,11 @@
 		0B70016F1F7C51CC005944F4 /* InCallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCallController.swift; sourceTree = "<group>"; };
 		0BBD021F212EB69D00CCB19F /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
 		0BD6B4361EF82A6B00D1F4CD /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = "../../node_modules/react-native-webrtc/ios/WebRTC.framework"; sourceTree = "<group>"; };
-		0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JitsiMeetCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEA5C251F7B8F73000D0AB4 /* Safe Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEA5C281F7B8F73000D0AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		0BEA5C2A1F7B8F73000D0AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BEA5C2C1F7B8F73000D0AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JitsiMeetCompanion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEA5C311F7B8F73000D0AB4 /* Safe Chat Companion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safe Chat Companion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEA5C361F7B8F73000D0AB4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		0BEA5C381F7B8F73000D0AB4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		0BEA5C3A1F7B8F73000D0AB4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -236,8 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* jitsi-meet.app */,
-				0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */,
-				0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */,
+				0BEA5C251F7B8F73000D0AB4 /* Safe Chat.app */,
+				0BEA5C311F7B8F73000D0AB4 /* Safe Chat Companion Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -245,9 +245,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BEA5C241F7B8F73000D0AB4 /* JitsiMeetCompanion */ = {
+		0BEA5C241F7B8F73000D0AB4 /* CafeChatCompanion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BEA5C481F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "JitsiMeetCompanion" */;
+			buildConfigurationList = 0BEA5C481F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "CafeChatCompanion" */;
 			buildPhases = (
 				0BEA5C231F7B8F73000D0AB4 /* Resources */,
 				0BEA5C471F7B8F73000D0AB4 /* Embed App Extensions */,
@@ -258,14 +258,14 @@
 			dependencies = (
 				0BEA5C341F7B8F73000D0AB4 /* PBXTargetDependency */,
 			);
-			name = JitsiMeetCompanion;
+			name = CafeChatCompanion;
 			productName = JitsiMeetCompanion;
-			productReference = 0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */;
+			productReference = 0BEA5C251F7B8F73000D0AB4 /* Safe Chat.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		0BEA5C301F7B8F73000D0AB4 /* JitsiMeetCompanion Extension */ = {
+		0BEA5C301F7B8F73000D0AB4 /* SafeChatCompanion Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BEA5C461F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "JitsiMeetCompanion Extension" */;
+			buildConfigurationList = 0BEA5C461F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "SafeChatCompanion Extension" */;
 			buildPhases = (
 				0BEA5C2D1F7B8F73000D0AB4 /* Sources */,
 				0BEA5C2E1F7B8F73000D0AB4 /* Frameworks */,
@@ -275,14 +275,14 @@
 			);
 			dependencies = (
 			);
-			name = "JitsiMeetCompanion Extension";
+			name = "SafeChatCompanion Extension";
 			productName = "JitsiMeetCompanion Extension";
-			productReference = 0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */;
+			productReference = 0BEA5C311F7B8F73000D0AB4 /* Safe Chat Companion Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		13B07F861A680F5B00A75B9A /* jitsi-meet */ = {
+		13B07F861A680F5B00A75B9A /* SafeChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jitsi-meet" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SafeChat" */;
 			buildPhases = (
 				B6607F42A5CF0C76E98929E2 /* [CP] Check Pods Manifest.lock */,
 				0BBA83C41EC9F7600075A103 /* Run React packager */,
@@ -303,7 +303,7 @@
 			dependencies = (
 				0BEA5C401F7B8F73000D0AB4 /* PBXTargetDependency */,
 			);
-			name = "jitsi-meet";
+			name = SafeChat;
 			productName = "Jitsi Meet";
 			productReference = 13B07F961A680F5B00A75B9A /* jitsi-meet.app */;
 			productType = "com.apple.product-type.application";
@@ -354,9 +354,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* jitsi-meet */,
-				0BEA5C241F7B8F73000D0AB4 /* JitsiMeetCompanion */,
-				0BEA5C301F7B8F73000D0AB4 /* JitsiMeetCompanion Extension */,
+				13B07F861A680F5B00A75B9A /* SafeChat */,
+				0BEA5C241F7B8F73000D0AB4 /* CafeChatCompanion */,
+				0BEA5C301F7B8F73000D0AB4 /* SafeChatCompanion Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -561,12 +561,12 @@
 /* Begin PBXTargetDependency section */
 		0BEA5C341F7B8F73000D0AB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0BEA5C301F7B8F73000D0AB4 /* JitsiMeetCompanion Extension */;
+			target = 0BEA5C301F7B8F73000D0AB4 /* SafeChatCompanion Extension */;
 			targetProxy = 0BEA5C331F7B8F73000D0AB4 /* PBXContainerItemProxy */;
 		};
 		0BEA5C401F7B8F73000D0AB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0BEA5C241F7B8F73000D0AB4 /* JitsiMeetCompanion */;
+			target = 0BEA5C241F7B8F73000D0AB4 /* CafeChatCompanion */;
 			targetProxy = 0BEA5C3F1F7B8F73000D0AB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,7 +608,7 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 7KX425J2J8;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -616,7 +616,7 @@
 				INFOPLIST_FILE = watchos/app/Info.plist;
 				MARKETING_VERSION = 20.2.25;
 				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Safe Chat";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -645,7 +645,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 7KX425J2J8;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -653,7 +653,7 @@
 				INFOPLIST_FILE = watchos/app/Info.plist;
 				MARKETING_VERSION = 20.2.25;
 				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Safe Chat";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -679,7 +679,7 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 7KX425J2J8;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -687,7 +687,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 20.2.25;
 				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit.extension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "Safe Chat Companion Extension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -715,7 +715,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 7KX425J2J8;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -723,7 +723,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 20.2.25;
 				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit.extension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "Safe Chat Companion Extension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -742,7 +742,7 @@
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 7KX425J2J8;
 				ENABLE_BITCODE = NO;
@@ -779,7 +779,7 @@
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 7KX425J2J8;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -923,7 +923,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BEA5C461F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "JitsiMeetCompanion Extension" */ = {
+		0BEA5C461F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "SafeChatCompanion Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BEA5C441F7B8F73000D0AB4 /* Debug */,
@@ -932,7 +932,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BEA5C481F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "JitsiMeetCompanion" */ = {
+		0BEA5C481F7B8F73000D0AB4 /* Build configuration list for PBXNativeTarget "CafeChatCompanion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BEA5C421F7B8F73000D0AB4 /* Debug */,
@@ -941,7 +941,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jitsi-meet" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SafeChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
