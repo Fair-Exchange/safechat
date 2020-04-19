@@ -319,16 +319,16 @@
 				TargetAttributes = {
 					0BEA5C241F7B8F73000D0AB4 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = FC967L3QRG;
+						DevelopmentTeam = 7KX425J2J8;
 						ProvisioningStyle = Automatic;
 					};
 					0BEA5C301F7B8F73000D0AB4 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = FC967L3QRG;
+						DevelopmentTeam = 7KX425J2J8;
 						ProvisioningStyle = Automatic;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = FC967L3QRG;
+						DevelopmentTeam = 7KX425J2J8;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.SafariKeychain = {
@@ -608,12 +608,14 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = FC967L3QRG;
+				DEVELOPMENT_TEAM = 7KX425J2J8;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				IBSC_MODULE = JitsiMeetCompanion_Extension;
 				INFOPLIST_FILE = watchos/app/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jitsi.meet.watchkit;
+				MARKETING_VERSION = 20.2.25;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -643,12 +645,14 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = FC967L3QRG;
+				DEVELOPMENT_TEAM = 7KX425J2J8;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				IBSC_MODULE = JitsiMeetCompanion_Extension;
 				INFOPLIST_FILE = watchos/app/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jitsi.meet.watchkit;
+				MARKETING_VERSION = 20.2.25;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -675,12 +679,14 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = FC967L3QRG;
+				DEVELOPMENT_TEAM = 7KX425J2J8;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = watchos/extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.jitsi.meet.watchkit.extension;
+				MARKETING_VERSION = 20.2.25;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -709,12 +715,14 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = FC967L3QRG;
+				DEVELOPMENT_TEAM = 7KX425J2J8;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = watchos/extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.jitsi.meet.watchkit.extension;
+				MARKETING_VERSION = 20.2.25;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat.watchkit.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -734,9 +742,9 @@
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = FC967L3QRG;
+				DEVELOPMENT_TEAM = 7KX425J2J8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -749,12 +757,13 @@
 				INFOPLIST_FILE = src/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 20.2.25;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.jitsi.meet;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat;
 				PRODUCT_NAME = "jitsi-meet";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -769,8 +778,8 @@
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FC967L3QRG;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 7KX425J2J8;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -783,12 +792,13 @@
 				INFOPLIST_FILE = src/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 20.2.25;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.jitsi.meet;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.safe.safechat;
 				PRODUCT_NAME = "jitsi-meet";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
