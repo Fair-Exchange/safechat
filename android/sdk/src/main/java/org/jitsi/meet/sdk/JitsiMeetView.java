@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -24,7 +24,7 @@ import androidx.annotation.Nullable;
 
 import com.facebook.react.bridge.ReadableMap;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import chat.safe.safechat.sdk.log.JitsiMeetLogger;
 
 import java.lang.reflect.Method;
 import java.util.Map;

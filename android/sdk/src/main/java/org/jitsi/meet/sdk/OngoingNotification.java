@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -25,7 +25,7 @@ import android.content.Intent;
 import android.os.Build;
 import androidx.core.app.NotificationCompat;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import chat.safe.safechat.sdk.log.JitsiMeetLogger;
 
 import java.util.Random;
 

@@ -18,7 +18,7 @@
  * Based on https://github.com/DylanVann/react-native-locale-detector
  */
 
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.content.Context;
 

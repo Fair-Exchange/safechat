@@ -1,4 +1,4 @@
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -19,7 +19,7 @@ import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableNativeMap;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import chat.safe.safechat.sdk.log.JitsiMeetLogger;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -50,7 +50,7 @@ public class ConnectionService extends android.telecom.ConnectionService {
      * created for the call.
      */
     static final String EXTRA_PHONE_ACCOUNT_HANDLE
-        = "org.jitsi.meet.sdk.connection_service.PHONE_ACCOUNT_HANDLE";
+        = "chat.safe.safechat.sdk.connection_service.PHONE_ACCOUNT_HANDLE";
 
     /**
      * Connections mapped by call UUID.
@@ -358,7 +358,7 @@ public class ConnectionService extends android.telecom.ConnectionService {
             WritableNativeMap data = new WritableNativeMap();
             data.putString("callUUID", getCallUUID());
             ReactInstanceManagerHolder.emitEvent(
-                    "org.jitsi.meet:features/connection_service#disconnect",
+                    "chat.safe.safechat:features/connection_service#disconnect",
                     data);
             // The JavaScript side will not go back to the native with
             // 'endCall', so the Connection must be removed immediately.
@@ -378,7 +378,7 @@ public class ConnectionService extends android.telecom.ConnectionService {
             WritableNativeMap data = new WritableNativeMap();
             data.putString("callUUID", getCallUUID());
             ReactInstanceManagerHolder.emitEvent(
-                    "org.jitsi.meet:features/connection_service#abort",
+                    "chat.safe.safechat:features/connection_service#abort",
                     data);
             // The JavaScript side will not go back to the native with
             // 'endCall', so the Connection must be removed immediately.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.app.Activity;
 
@@ -71,7 +71,7 @@ class ReactInstanceManagerHolder {
                 new PictureInPictureModule(reactContext),
                 new ProximityModule(reactContext),
                 new WiFiStatsModule(reactContext),
-                new org.jitsi.meet.sdk.net.NAT64AddrInfoModule(reactContext)));
+                new chat.safe.safechat.sdk.net.NAT64AddrInfoModule(reactContext)));
 
         if (AudioModeModule.useConnectionService()) {
             nativeModules.add(new RNConnectionService(reactContext));
@@ -91,7 +91,7 @@ class ReactInstanceManagerHolder {
         nativeModules.add(new WebRTCModule(reactContext, options));
 
         try {
-            Class<?> amplitudeModuleClass = Class.forName("org.jitsi.meet.sdk.AmplitudeModule");
+            Class<?> amplitudeModuleClass = Class.forName("chat.safe.safechat.sdk.AmplitudeModule");
             Constructor constructor = amplitudeModuleClass.getConstructor(ReactApplicationContext.class);
             nativeModules.add((NativeModule)constructor.newInstance(reactContext));
         } catch (Exception e) {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.jitsi.meet.sdk">
+    package="chat.safe.safechat.sdk">
     <!-- XXX ACCESS_NETWORK_STATE is required by WebRTC. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -46,7 +46,7 @@
             </intent-filter>
         </service>
 
-        <service android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService" />
+        <service android:name="chat.safe.safechat.sdk.JitsiMeetOngoingConferenceService" />
     </application>
 
 </manifest>

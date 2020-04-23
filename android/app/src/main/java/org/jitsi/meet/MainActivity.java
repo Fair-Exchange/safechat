@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet;
+package chat.safe.safechat;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -24,9 +24,9 @@ import android.util.Log;
 import android.view.KeyEvent;
 import androidx.annotation.Nullable;
 
-import org.jitsi.meet.sdk.JitsiMeet;
-import org.jitsi.meet.sdk.JitsiMeetActivity;
-import org.jitsi.meet.sdk.JitsiMeetConferenceOptions;
+import chat.safe.safechat.sdk.JitsiMeet;
+import chat.safe.safechat.sdk.JitsiMeetActivity;
+import chat.safe.safechat.sdk.JitsiMeetConferenceOptions;
 
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
@@ -58,7 +58,7 @@ public class MainActivity extends JitsiMeetActivity {
         // Setup Crashlytics and Firebase Dynamic Links
         // Here we are using reflection since it may have been disabled at compile time.
         try {
-            Class<?> cls = Class.forName("org.jitsi.meet.GoogleServicesHelper");
+            Class<?> cls = Class.forName("chat.safe.safechat.GoogleServicesHelper");
             Method m = cls.getMethod("initialize", JitsiMeetActivity.class);
             m.invoke(null, this);
         } catch (Exception e) {

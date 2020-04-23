@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk.log;
+package chat.safe.safechat.sdk.log;
 
 import timber.log.Timber;
 

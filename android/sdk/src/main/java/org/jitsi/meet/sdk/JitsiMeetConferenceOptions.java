@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.os.Bundle;
 import android.os.Parcel;

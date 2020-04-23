@@ -7,6 +7,6 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="org.jitsi.meet.sdk.JitsiMeetFragment"
+        android:name="chat.safe.safechat.sdk.JitsiMeetFragment"
         android:id="@+id/jitsiFragment"/>
 </FrameLayout>

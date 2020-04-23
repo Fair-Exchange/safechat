@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothHeadset;
@@ -25,7 +25,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.media.AudioManager;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import chat.safe.safechat.sdk.log.JitsiMeetLogger;
 
 /**
  * Helper class to detect and handle Bluetooth device changes.  It monitors

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.content.Context;
 import android.content.Intent;
@@ -25,7 +25,7 @@ import androidx.fragment.app.FragmentActivity;
 
 import com.facebook.react.modules.core.PermissionListener;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import chat.safe.safechat.sdk.log.JitsiMeetLogger;
 
 import java.util.Map;
 
@@ -39,7 +39,7 @@ public class JitsiMeetActivity extends FragmentActivity
 
     protected static final String TAG = JitsiMeetActivity.class.getSimpleName();
 
-    private static final String ACTION_JITSI_MEET_CONFERENCE = "org.jitsi.meet.CONFERENCE";
+    private static final String ACTION_JITSI_MEET_CONFERENCE = "chat.safe.safechat.CONFERENCE";
     private static final String JITSI_MEET_CONFERENCE_OPTIONS = "JitsiMeetConferenceOptions";
 
     // Helpers for starting the activity

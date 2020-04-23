@@ -103,18 +103,18 @@ compileOptions {
 ```
 
 To get started, extends your `android.app.Activity` from
-`org.jitsi.meet.sdk.JitsiMeetActivity`:
+`chat.safe.safechat.sdk.JitsiMeetActivity`:
 
 ```java
 package org.jitsi.example;
 
-import org.jitsi.meet.sdk.JitsiMeetActivity;
+import chat.safe.safechat.sdk.JitsiMeetActivity;
 
 public class MainActivity extends JitsiMeetActivity {
 }
 ```
 
-Alternatively, you can use the `org.jitsi.meet.sdk.JitsiMeetView` class which
+Alternatively, you can use the `chat.safe.safechat.sdk.JitsiMeetView` class which
 extends `android.view.View`.
 
 Note that this should only be needed when `JitsiMeetActivity` cannot be used for
@@ -131,8 +131,8 @@ package org.jitsi.example;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
-import org.jitsi.meet.sdk.JitsiMeetView;
-import org.jitsi.meet.sdk.ReactActivityLifecycleCallbacks;
+import chat.safe.safechat.sdk.JitsiMeetView;
+import chat.safe.safechat.sdk.ReactActivityLifecycleCallbacks;
 
 // Example
 //

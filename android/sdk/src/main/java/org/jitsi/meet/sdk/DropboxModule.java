@@ -1,4 +1,4 @@
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;

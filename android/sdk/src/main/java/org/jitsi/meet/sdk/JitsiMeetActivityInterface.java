@@ -1,4 +1,4 @@
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import androidx.core.app.ActivityCompat;
 

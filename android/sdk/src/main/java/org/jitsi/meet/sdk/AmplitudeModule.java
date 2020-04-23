@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.annotation.SuppressLint;
 import android.provider.Settings;
@@ -28,7 +28,7 @@ import com.facebook.react.bridge.ReadableMap;
 import com.amplitude.api.Amplitude;
 import com.facebook.react.module.annotations.ReactModule;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import chat.safe.safechat.sdk.log.JitsiMeetLogger;
 import org.json.JSONException;
 import org.json.JSONObject;
 

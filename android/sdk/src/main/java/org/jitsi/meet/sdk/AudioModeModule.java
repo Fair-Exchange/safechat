@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.jitsi.meet.sdk;
+package chat.safe.safechat.sdk;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -29,7 +29,7 @@ import com.facebook.react.bridge.WritableArray;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.module.annotations.ReactModule;
 
-import org.jitsi.meet.sdk.log.JitsiMeetLogger;
+import chat.safe.safechat.sdk.log.JitsiMeetLogger;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -116,7 +116,7 @@ class AudioModeModule extends ReactContextBaseJavaModule {
     /**
      * Device change event.
      */
-    private static final String DEVICE_CHANGE_EVENT = "org.jitsi.meet:features/audio-mode#devices-update";
+    private static final String DEVICE_CHANGE_EVENT = "chat.safe.safechat:features/audio-mode#devices-update";
 
     /**
      * List of currently available audio devices.
