@@ -23,7 +23,7 @@ export function generateDeepLinkingURL() {
     // appears to be a link with an app-specific scheme, not a Universal
     // Link.
 
-    const appScheme = 'org.jitsi.meet';   //temporary until our next iOS update
+    const appScheme = interfaceConfig.APP_SCHEME || 'org.jitsi.meet';   //temporary until our next iOS update
     const { href } = window.location;
     const regex = new RegExp(URI_PROTOCOL_PATTERN, 'gi');
 
