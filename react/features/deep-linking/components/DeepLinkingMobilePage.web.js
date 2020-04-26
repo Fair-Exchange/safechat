@@ -175,7 +175,7 @@ class DeepLinkingMobilePage extends Component<Props> {
         const {
             APN = 'chat.safe.safechat',
             APP_CODE = 'link',
-            IBI = 'chat.safe.safechat.ios',
+            IBI = 'chat.safe.safechat',
             ISI = '1508229036'
         } = interfaceConfig.MOBILE_DYNAMIC_LINK || {};
         const IUS = interfaceConfig.APP_SCHEME || 'chat.safe.safechat';
