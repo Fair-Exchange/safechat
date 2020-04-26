@@ -23,7 +23,7 @@ export function generateDeepLinkingURL() {
     // appears to be a link with an app-specific scheme, not a Universal
     // Link.
 
-    const appScheme = interfaceConfig.APP_SCHEME || 'chat.safe.safechat';
+    const appScheme = 'org.jitsi.meet';   //temporary until our next iOS update
     const { href } = window.location;
     const regex = new RegExp(URI_PROTOCOL_PATTERN, 'gi');
 
@@ -32,6 +32,7 @@ export function generateDeepLinkingURL() {
     if (Platform.OS === 'android') {
         // https://meet.jit.si/foo -> meet.jit.si/foo
         const url = href.replace(regex, '').substr(2);
+        appScheme = 'chat.safe.safechat';
         const pkg = interfaceConfig.ANDROID_APP_PACKAGE || 'chat.safe.safechat';
 
         return `intent://${url}#Intent;scheme=${appScheme};package=${pkg};end`;
