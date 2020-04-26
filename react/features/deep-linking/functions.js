@@ -35,7 +35,7 @@ export function generateDeepLinkingURL() {
         appScheme = 'chat.safe.safechat';
         const pkg = interfaceConfig.ANDROID_APP_PACKAGE || 'chat.safe.safechat';
 
-        return `intent://${url}#Intent;scheme=${appScheme};package=${pkg};end`;
+        return `intent://${url}#Intent;scheme='chat.safe.safechat';package=${pkg};end`;
     }
 
     // iOS: Replace the protocol part with the app scheme.
