@@ -174,19 +174,18 @@ class DeepLinkingMobilePage extends Component<Props> {
         // https://firebase.google.com/docs/dynamic-links/create-manually
         const {
             APN = 'chat.safe.safechat',
-            APP_CODE = 'xxx',
-            IBI = 'com.atlassian.JitsiMeet.ios',
-            ISI = '1165103905'
+            APP_CODE = 'link',
+            IBI = 'chat.safe.safechat.ios',
+            ISI = '1508229036'
         } = interfaceConfig.MOBILE_DYNAMIC_LINK || {};
         const IUS = interfaceConfig.APP_SCHEME || 'chat.safe.safechat';
 
-  //      return `https://${APP_CODE}.app.goo.gl/?link=${
-  //          encodeURIComponent(window.location.href)}&apn=${
-  //          APN}&ibi=${
-  //          IBI}&isi=${
-  //          ISI}&ius=${
-  //          IUS}&efr=1`;
-         return   `https://play.google.com/store/apps/details?id=chat.safe.safechat`;
+        return `https://${APP_CODE}.safe.chat/?link=${
+            encodeURIComponent(window.location.href)}&apn=${
+            APN}&ibi=${
+            IBI}&isi=${
+            ISI}&ius=${
+            IUS}&efr=1`;
             
     }
 
