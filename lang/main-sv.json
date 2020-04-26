@@ -28,7 +28,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Lägg till en möteslänk",
-        "confirmAddLink": "Vill du lägga till en Jitsi-länk i händelsen?",
+        "confirmAddLink": "Vill du lägga till en SafeChat-länk i händelsen?",
         "error": {
             "appConfiguration": "Kalenderintegrationen är inte rätt inställd.",
             "generic": "Ett fel har inträffat. Kontrollera dina kalenderinställningar eller uppdatera kalendern.",
@@ -274,7 +274,7 @@
         "answer": "Svara",
         "audioCallTitle": "Inkommande samtal",
         "decline": "Förkasta",
-        "productLabel": "från Jitsi Meet",
+        "productLabel": "från SafeChat Meet",
         "videoCallTitle": "Inkommande videosamtal"
     },
     "info": {

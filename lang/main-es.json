@@ -29,7 +29,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Agregar un vínculo a la reunión",
-        "confirmAddLink": "¿Quiere añadir un enlace de Jitsi a este evento?",
+        "confirmAddLink": "¿Quiere añadir un enlace de SafeChat a este evento?",
         "error": {
             "appConfiguration": "La integración del calendario no está configurada correctamente",
             "generic": "Se ha producido un error. Compruebe la configuración del calendario o pruebe a recargarlo",
@@ -292,7 +292,7 @@
         "answer": "Contestar",
         "audioCallTitle": "Llamada entrante",
         "decline": "Descartar",
-        "productLabel": "de Jitsi Meet",
+        "productLabel": "de SafeChat Meet",
         "videoCallTitle": "Llamada de vídeo"
     },
     "info": {

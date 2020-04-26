@@ -28,7 +28,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Voeg ’n vergaderingskakel by",
-        "confirmAddLink": "Wil u ’n Jitsi-skakel by dié geleentheid voeg?",
+        "confirmAddLink": "Wil u ’n SafeChat-skakel by dié geleentheid voeg?",
         "error": {
             "appConfiguration": "",
             "generic": "",
@@ -274,7 +274,7 @@
         "answer": "Antwoord",
         "audioCallTitle": "Inkomende oproep",
         "decline": "Weier",
-        "productLabel": "vanaf Jitsi Meet",
+        "productLabel": "vanaf SafeChat Meet",
         "videoCallTitle": "Inkomende video-oproep"
     },
     "info": {

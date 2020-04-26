@@ -1,19 +1,19 @@
-Jitsi Meet Translation
+SafeChat Meet Translation
 ==========================
-Jitsi Meet uses [i18next](http://i18next.com) library for translation.
+SafeChat Meet uses [i18next](http://i18next.com) library for translation.
 i18next uses separate json files for each language.
 
 
-Translating Jitsi Meet
+Translating SafeChat Meet
 ======================
-The translation of Jitsi Meet is integrated with Pootle. You can translate Jitsi Meet via our Pootle user interface on
+The translation of SafeChat Meet is integrated with Pootle. You can translate SafeChat Meet via our Pootle user interface on
 [http://translate.jitsi.org](http://translate.jitsi.org).
 
 **WARNING: Please don't create or edit manually the language files! Please use our Pootle user interface!**
 
 Development
 ===========
-If you want to add new functionality for Jitsi Meet and you have texts that need to be translated please use our translation module.
+If you want to add new functionality for SafeChat Meet and you have texts that need to be translated please use our translation module.
 It is located in modules/translation. You must add key and value in main.json file in English for each translatable text.
 Than you can use the key to get the translated text for the current language.
 

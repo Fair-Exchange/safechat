@@ -29,7 +29,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Tilføj et mødelink",
-        "confirmAddLink": "Ønsker du at tilføj et Jitsi link til denne aftale?",
+        "confirmAddLink": "Ønsker du at tilføj et SafeChat link til denne aftale?",
         "error": {
             "appConfiguration": "Kalender integration er ikke sat korrekt op.",
             "generic": "Der er sket en fejl. Verificer venligst dine kalenderindstilliinger eller prøv på at genopfriske din kalender.",

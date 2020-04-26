@@ -29,7 +29,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Přidejte odkaz na schůzku",
-        "confirmAddLink": "Chcete k této události přidat odkaz Jitsi?",
+        "confirmAddLink": "Chcete k této události přidat odkaz SafeChat?",
         "error": {
             "appConfiguration": "Integrace kalendáře není správně nakonfigurována.",
             "generic": "Došlo k chybě. Zkontrolujte nastavení kalendáře nebo zkuste aktualizovat kalendář.",
@@ -308,7 +308,7 @@
         "answer": "Odpovědět",
         "audioCallTitle": "Příchozí hovor",
         "decline": "OK",
-        "productLabel": "od Jitsi Meet",
+        "productLabel": "od SafeChat Meet",
         "videoCallTitle": "Příchozí videohovor"
     },
     "info": {
