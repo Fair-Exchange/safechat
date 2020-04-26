@@ -33,8 +33,8 @@ export function generateDeepLinkingURL() {
         // https://meet.jit.si/foo -> meet.jit.si/foo
         const url = href.replace(regex, '').substr(2);
         const pkg = interfaceConfig.ANDROID_APP_PACKAGE || 'chat.safe.safechat';
-
-        return `intent://${url}#Intent;scheme='chat.safe.safechat';package=${pkg};end`;
+        const androidappScheme = interfaceConfig.APP_SCHEME || 'chat.safe.safechat';
+        return `intent://${url}#Intent;scheme=${androidappScheme}';package=${pkg};end`;
     }
 
     // iOS: Replace the protocol part with the app scheme.
